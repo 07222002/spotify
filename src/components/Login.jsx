@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export default function Login() {
   const handleClick = async () => {
-    const client_id = "97a90611d12c49d991e5753d23fa6e8f";
-    const redirect_uri = "https://spotify-green-five.vercel.app/";
+    const client_id = "b10ac7cc459d474e961a6603c15da715";
+    const redirect_uri = "https://github.com/07222002/spotify.git";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
