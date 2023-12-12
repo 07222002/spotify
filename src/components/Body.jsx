@@ -205,7 +205,7 @@ const Container = styled.div`
       margin: 0rem 0 0 0;
       color: #dddcdc;
       position: sticky;
-      top: 15vh;
+      top: 12%;
       padding: 1rem 3rem;
       transition: 0.3s ease-in-out;
       background-color: ${({ headerBackground }) =>
@@ -219,7 +219,8 @@ const Container = styled.div`
       .row {
         padding: 0.5rem 1rem;
         display: grid;
-        grid-template-columns: 0.3fr 3.1fr 2fr 0.1fr;
+        cursor:pointer;
+        grid-template-columns: 0.3fr 3.1fr 1.9fr 0.1fr;
         &:hover {
           background-color: rgba(0, 0, 0, 0.7);
         }

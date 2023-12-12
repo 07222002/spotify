@@ -34,6 +34,7 @@ function Sidebar() {
   )
 }
 const Container = styled.div`
+padding-top:10px;
 background-color: black;
   color: #b3b3b3;
   display: flex;
